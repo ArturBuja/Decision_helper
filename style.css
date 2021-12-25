@@ -20,8 +20,11 @@ h3{
 }
 .container {
     width: 500px;
-
 }
+@media (max-width: 500px){
+    .container {
+    width: 350px;
+}}
 
 textarea{
 border: none;
